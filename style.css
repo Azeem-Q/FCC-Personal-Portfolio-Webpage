@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+.nav-link {
+    list-style: none;
+    display: inline-block;
+}
+.nav-link a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: red;
+    height: 50px;
+    width: 100%;
+}
+.nav-link :hover, .nav-link :focus {
+    background: blue;
+    color: white;
+}
