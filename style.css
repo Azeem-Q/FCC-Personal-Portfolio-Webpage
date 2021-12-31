@@ -9,6 +9,7 @@ body {
     text-decoration: none;
     padding: 15px;
     font-weight: bold;
+    color: white;
 }
 #navbar {
     display: flex;
@@ -16,11 +17,14 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: rgb(185, 66, 66);
+    background: rgb(238, 71, 71);
     height: 50px;
     width: 100%;
 }
 .nav-link :hover, .nav-link :focus {
-    background: blue;
+    background: rgb(58, 84, 201);
     color: white;
+}
+#welcome-section {
+    margin-top: 50px;
 }
