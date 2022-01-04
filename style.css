@@ -10,7 +10,7 @@ html, body {
 }
 .nav-link a {
     text-decoration: none;
-    padding: 16.5px 15px 15px 15px;
+    padding: 16.5px 15px 16.5px 15px;
     font-weight: bold;
     color: white;
 }
@@ -26,7 +26,7 @@ html, body {
     box-shadow: 0px 1px 2px;
 }
 .nav-link :hover, .nav-link :focus {
-    background: rgb(52, 67, 131);
+    background: rgb(61, 69, 105);
     color: white;
 }
 #welcome-section {
@@ -35,8 +35,6 @@ html, body {
     justify-content: center;
     flex-direction: column;
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    padding-left: 0;
-    right: 0;
     width: 100%;
     height: 100vh;
     align-items: center;
@@ -46,4 +44,48 @@ html, body {
 }
 #welcome-section h1 {
     color: white;
+    margin-bottom: -10px;
+}
+#projects {
+    margin-top: 0;
+    padding-top: 40px;
+    background: rgb(61, 69, 105);
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30vw);
+    padding: 2vw;
+    grid-gap: 2vw;
+}
+.projects-header {
+    text-align: center;
+    color: white;
+}
+.project-tile {
+    width: 30vw;
+    height: auto;
+    margin: 0;
+    background: rgb(59, 59, 59);
+}
+.project-tile img {
+    width: 30vw;
+    height: auto;
+    margin: 0;
+}
+.project-title {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.code {
+    display: inline-block;
+    color: rgb(59, 59, 59);
+}
+.project-tile a {
+    text-decoration: none;
+}
+.project-tile :hover, .project-tile :focus, .code {
+    color: orangered;
 }
