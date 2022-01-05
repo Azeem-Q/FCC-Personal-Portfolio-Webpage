@@ -124,7 +124,8 @@ html, body {
     text-decoration: none;
 }
 .profile-link:hover {
-    transform: translateY(10px);
+    color: rgb(238, 71, 71);
+    transform: translateY(5px);
 }
 footer {
     background: rgb(53, 53, 53);
