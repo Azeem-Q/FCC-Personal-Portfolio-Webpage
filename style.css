@@ -49,6 +49,7 @@ html, body {
 #projects {
     margin-top: 0;
     padding-top: 40px;
+    padding-bottom: 20px;
     background: rgb(61, 69, 105);
 }
 .projects-grid {
@@ -65,7 +66,7 @@ html, body {
     width: 30vw;
     height: auto;
     margin: 0;
-    background: rgb(59, 59, 59);
+    background: rgb(70, 70, 70);
 }
 .project-tile img {
     width: 30vw;
@@ -80,12 +81,30 @@ html, body {
     color: white;
 }
 .code {
-    display: inline-block;
-    color: rgb(59, 59, 59);
+    color: rgb(70, 70, 70);
+    transition: color 0.3s ease-out;
 }
 .project-tile a {
     text-decoration: none;
 }
-.project-tile :hover, .project-tile :focus, .code {
+.project-tile :hover .code {
     color: orangered;
+}
+.show-all {
+    display: flex;
+    justify-content: center;
+    background: rgb(70, 70, 70);
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+.show-all :hover {
+    background: rgb(238, 71, 71);
 }
