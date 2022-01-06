@@ -118,14 +118,14 @@ html, body {
     padding: 20px 0 20px 0;
     text-align: center;
 }
-.profile-link {
+#profile-link {
     display: inline-block;
     color: white;
     font-size: 18pt ;
     text-decoration: none;
     transition: transform 0.3s ease-out;
 }
-.profile-link:hover {
+#profile-link:hover {
     color: rgb(238, 71, 71);
     transform: translateY(10px);
 }
@@ -152,7 +152,7 @@ footer {
         width: 45vw;
         height: auto;
     }
-    .profile-link {
+    #profile-link {
         display: block;
         padding: 20px;
     }
